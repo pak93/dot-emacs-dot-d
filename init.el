@@ -9,6 +9,12 @@
 ;; Highlight current line.
 (global-hl-line-mode t)
 
+;; Disable bell ring.
+(setq ring-bell-function 'ignore)
+
+;; Disable cursor blink.
+(blink-cursor-mode -1)
+
 ;; Use `command` as `meta` in macOS.
 ;;(setq mac-command-modifier 'meta)
 
